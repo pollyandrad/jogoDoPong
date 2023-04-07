@@ -43,7 +43,8 @@ function setup() {
 }
 
 function draw() {
-  background(0);
+  background(50);
+  fill(355, 100, 355);
   mostraBolinha();
   movimentaBolinha();
   verificaColisaoBorda();
@@ -118,11 +119,11 @@ function incluiPlacar(){
   stroke(255);
   textAlign(CENTER);
   textSize(16);
-  fill(color(220, 20, 60));
+  fill(color(355, 100, 60));
   rect(150, 10, 40, 20);
   fill(255);
   text(meusPontos, 170, 26);
-  fill(color( 220,20, 60));
+  fill(color(355, 100, 60));
   rect(450, 10, 40, 20);
   fill(255);
   text(pontosDoOponente, 470, 26);
